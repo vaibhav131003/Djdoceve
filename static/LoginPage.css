@@ -1,0 +1,114 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.maincontainer{
+    background: #C4C8C6;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    
+}
+.box{
+    background:#fff;
+    border: 2px solid;
+    width: 40%;
+    height: 70%;
+    border-radius: 10px;
+    margin-top: 7%;
+    font-family: 'Poppins';
+}
+.image{
+    height: 98%;
+    width: 98%;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    height: 12%;
+    
+}
+.box2{
+    display: flex;
+    margin-top: 1%;
+}
+.logininfo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.username{
+    display: flex;
+    margin-top: 8%;
+}
+.password{
+    display: flex;
+    margin-top: 8%;
+}
+.showpass{
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+    font-size: 17px;
+    margin-left: 8%;
+}
+.checkbox{
+    margin-right: 2%;
+    display: flex;
+}
+.input{
+    display: flex;
+    width: 100%;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 2px solid gray;
+    font-size: 15px;
+    padding: 2%;
+}
+.btn{
+    width: 90%;
+    height: 20%;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+.anchor{
+    text-decoration: none;
+}
+.googlebtn{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    height: auto;
+    font-size: 15px;
+    box-shadow: none;
+    width: 40%;
+    margin-left: 2%;
+}
+.otheracc{
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    margin-left: 8%;
+}
+.forgot{
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.icon{
+    font-size: 200%;
+    margin-right: 2%;
+}
+.othertext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
